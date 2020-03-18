@@ -7,10 +7,10 @@ void main()
 {
 	Tree tree(10);
 
-	// ÀÚ½Ä¾ø´Â ³ëµå Á¤»ó »èÁ¦
-	// ¿ÞÂÊ ÀÚ½Ä¸¸ ÀÖ´Â ³ëµå Á¤»ó »èÁ¦
-	// ¿À¸¥ÂÊ ÀÚ½Ä¸¸ ÀÖ´Â ³ëµå Á¤»ó »èÁ¦
-	// ÀÚ½Ä µÑ´Ù ÀÖ´Â ³ëµå Á¤»ó »èÁ¦
+	// ìžì‹ì—†ëŠ” ë…¸ë“œ ì •ìƒ ì‚­ì œ
+	// ì™¼ìª½ ìžì‹ë§Œ ìžˆëŠ” ë…¸ë“œ ì •ìƒ ì‚­ì œ
+	// ì˜¤ë¥¸ìª½ ìžì‹ë§Œ ìžˆëŠ” ë…¸ë“œ ì •ìƒ ì‚­ì œ
+	// ìžì‹ ë‘˜ë‹¤ ìžˆëŠ” ë…¸ë“œ ì •ìƒ ì‚­ì œ
 
 	tree.InsertNode(tree.GetRootNode(), 3);
 	tree.InsertNode(tree.GetRootNode(), 12);
@@ -25,5 +25,5 @@ void main()
 	tree.InOrder(tree.GetRootNode());
 	cout << endl;
 	tree.PostOrder(tree.GetRootNode());
-	cout << endl;
+	cout << endl; 
 }
